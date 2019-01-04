@@ -1,4 +1,4 @@
-# ai_image_proccessing
+# AI_image_proccessing
 This project introduces some applied functions in image processing that written with python and opencv libs.
 
 #in first step you must install python3, you can download python setup according to your operation system here :
