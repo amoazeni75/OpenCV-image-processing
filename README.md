@@ -2,9 +2,9 @@
 This project introduces some applied functions in image processing that written with python and opencv libs.
 
 #in first step you must install python3, you can download python setup according to your operation system here :
-#https://www.python.org/downloads/
-#- for windows you need to add path of python packages to your enviroment variables, follow these steps:
-#1 - search "edit the system enviroment variables"
+</br>https://www.python.org/downloads/
+</br>- for windows you need to add path of python packages to your enviroment variables, follow these steps:
+</br> - search "edit the system enviroment variables"
 #2 - click on "Enviroment Variables..." button
 #3 - in the user section select "Path" then click on "Edit" button
 #4 - in the oppened window click "New" then in enter this path according to your username and installed python version
