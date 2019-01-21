@@ -83,7 +83,7 @@ video_frame = []
 vidcap = cv2.VideoCapture("test.avi")
 for i in range(5):
     success, image = vidcap.read()
-    cv2.imshow('capture1_' + repr(i + 1), image)
+    cv2.imshow('Frames with intervals of 0.5 seconds -' + repr(i + 1), image)
     cv2.waitKey(500)
 
 # show 5 first frame with delay 0.5 second
@@ -92,8 +92,9 @@ for i in range(5):
     video_frame.append(image)
 
 for i in range(5):
-    cv2.imshow('capture2_' + repr(i + 1), video_frame[i])
-    sleep(0.5)
+    cv2.imshow('First 5 frame -' + repr(i + 1), video_frame[i])
+    cv2.waitKey(500)
+
 # exit
 cv2.waitKey(0)
 cv2.destroyAllWindows()
