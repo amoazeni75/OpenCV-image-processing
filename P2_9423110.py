@@ -94,6 +94,7 @@ for i in range(5):
 for i in range(5):
     cv2.imshow('First 5 frame -' + repr(i + 1), video_frame[i])
     cv2.waitKey(500)
+vidcap.release()
 
 # exit
 cv2.waitKey(0)
