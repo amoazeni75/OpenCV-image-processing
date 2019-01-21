@@ -1,4 +1,5 @@
 import cv2
+from time import sleep
 # AI_Project 2
 # S.Alireza Moazeni
 # 9423110   Amirkabir university of technology
@@ -77,16 +78,22 @@ for (x,y,w,h) in faces:
 
 cv2.imshow('Face Detection', img)
 
-#10 extract 5 frame
+#10 extract 5 frame with delay 0.5 second between each oder
+video_frame = []
 vidcap = cv2.VideoCapture("test.avi")
-
-for i in range(4):
+for i in range(5):
     success, image = vidcap.read()
-    print(success)
-    cv2.imshow('capture ' + i, image)
-    # time.sleep(1)
+    cv2.imshow('capture1_' + repr(i + 1), image)
     cv2.waitKey(500)
 
+# show 5 first frame with delay 0.5 second
+for i in range(5):
+    success, image = vidcap.read()
+    video_frame.append(image)
+
+for i in range(5):
+    cv2.imshow('capture2_' + repr(i + 1), video_frame[i])
+    sleep(0.5)
 # exit
 cv2.waitKey(0)
 cv2.destroyAllWindows()
