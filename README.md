@@ -17,25 +17,29 @@
  </o1>
  
 <p>next you need to install opencv, for windows follow these steps:</p>
-  </br>1 - press windows key + R
-  </br>2 - type "cmd"
-  </br>3 - copy paste this line and then press enter: "pip install opencv-python"
-  </br>4 - then enter this command : "pip install opencv-contrib-python --upgrade"
-  </br>- to sure that all things is ok, type these line in cmd, then you should see version of your opencv :
-        </br>C:\> python
-        </br>>>> import cv2
-        </br>>>> print(cv2.__version__)
+<o1 type  = "1">
+  <li>press windows key + R</li>
+  <li>type "cmd"</li>
+  <li>copy and paste this line and then press enter: <code>pip install opencv-python</code></li>
+  <li>then enter this command : <code>pip install opencv-contrib-python --upgrade</code></li>
+ </o1>
+ <p1>to ensure that all things is ok, type these lines in cmd, then you should see the version of your installed opencv :<p>
+  <code>C:\> python</code>
+  <code>import cv2</code>
+  <code>print(cv2.__version__)</code>
     
-</br>after setup pre requirments you can run cmd in the path of .py downloaded file and type : python P2_9423110.py
-</br>note : you should place an image with name "test.jpg" in the directory of P2_9423110.py file
+<p>after setuping pre-requirments you can run cmd and go to directory of .py downloaded file and type : <code>python P2_9423110.py</code></p>
+<p>note : you should put an image with the name "test.jpg" in the directory of P2_9423110.py file</p>
 
-</br>functions list in the code : 
-  </br>1 - open and show test.jpg picture
-  </br>2 - show blue channel of openned image
-  </br>3 - convert image to grayscale and show it
-  </br>4 - smooth gray scale image with Gaussian filter and then show it
-  </br>5 - rotate input image 90 degree and show it
-  </br>6 - change width but take height no change
-  </br>7 - detect edges and show them
-  </br>8 - segement input image and then show it
-  </br>9 - reconize faces in image and draw rectangle around each of them
+<h1>here is the list of functions that this script contains</h1> 
+<ul>
+  <li>open and show test.jpg picture as normal image</li>
+  <li>show blue channel of openned image</li>
+  <li>convert the image to grayscale one and show it</li>
+  <li>smooth the gray scale image with Gaussian filter and then show it</li>
+  <li>rotate the input image 90 degree and show it</li>
+  <li>change width of the image without changing it's height</li>
+  <li>detect edges and show them</li>
+  <li>segement the input image and then show it</li>
+  <li>reconize faces in the image and draw rectangle around each of them</li>
+</ul>
