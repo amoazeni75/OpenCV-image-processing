@@ -9,7 +9,7 @@
   <li>search "edit the system enviroment variables"</li>
   <li>click on "Enviroment Variables..." button</li>
   <li>in the user section, select "Path" then click on "Edit" button</li>
-  <li>in the oppened window click "New" then enter this path according to your username and installed python version
+  <li>in the oppened window click "New" then enter this path according to your username and installed python version</li>
       <o1 type="2">
         <li> C:\Users\"username here for example : Alireza"\AppData\Local\Programs\Python\"Python + version for example : Python36-   32"\Scripts\</li>
   <li> C:\Users\"username here for example : Alireza"\AppData\Local\Programs\Python\"Python + version for example : Python36-           32"\</li></o1>
