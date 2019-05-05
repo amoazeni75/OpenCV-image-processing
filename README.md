@@ -16,13 +16,13 @@
   <li>click ok and then Apply</li> 
  </o1>
  
-<p>next you need to install opencv, for windows follow these steps:</p>
-<o1 type  = "1">
+<h3>next you need to install opencv, for windows follow these steps:</h3>
+<ul>
   <li>press windows key + R</li>
   <li>type "cmd"</li>
   <li>copy and paste this line and then press enter: <code>pip install opencv-python</code></li>
   <li>then enter this command : <code>pip install opencv-contrib-python --upgrade</code></li>
- </o1>
+ </ul>
  <p1>to ensure that all things is ok, type these lines in cmd, then you should see the version of your installed opencv :<p>
   <code>C:\> python</code>
   <code>import cv2</code>
